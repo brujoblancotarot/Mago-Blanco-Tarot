@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mago Blanco Tarot</title>
+    <style>
+        body {
+            background-color: #1c1c1c;
+            color: #f5f5f5;
+            font-family: 'Cursive', serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            color: #f5f5f5;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+        .container {
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section h2 {
+            font-size: 2em;
+            border-bottom: 2px solid #f5f5f5;
+            padding-bottom: 10px;
+        }
+        .section p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #333;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mago Blanco Tarot</h1>
+    </header>
+    <nav>
+        <a href="#about">Sobre Mí</a>
+        <a href="#services">Servicios</a>
+        <a href="#testimonials">Testimonios</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+    <div class="container">
+        <div id="about" class="section">
+            <h2>Sobre Mí</h2>
+            <p>Comencé a aprender magia como autodidacta cuando era adolescente, también leía el tarot por intuición, es decir, sin conocimientos previos...</p>
+        </div>
+        <div id="services" class="section">
+            <h2>Servicios</h2>
+            <p>Ofrezco una variedad de servicios, incluyendo lecturas de tarot, hechizos de amor, salud y abre caminos. Cada sesión está personalizada para tus necesidades específicas.</p>
+        </div>
+        <div id="testimonials" class="section">
+            <h2>Testimonios</h2>
+            <p>Aquí puedes leer algunas experiencias de mis clientes...</p>
+        </div>
+        <div id="contact" class="section">
+            <h2>Contacto</h2>
+            <p>Puedes contactarme a través del formulario o mediante mis datos de contacto a continuación...</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Mago Blanco Tarot. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
